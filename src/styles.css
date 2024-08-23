@@ -2721,6 +2721,58 @@ img {
   overflow: hidden;
 }
 
+#navbar{
+  position: sticky;
+  top: 0px;
+}
+#footer-content-parent{
+  margin: auto;
+  margin-top: 120px;
+  max-width: 1140px;
+  width: 100%;
+  padding-top: 100px;
+}
+#footer-content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
+#footer-social-icons{
+display: flex;
+gap: 10px;
+}
+.footer-content-heading{
+  font-weight: 700;
+  font-size: larger;
+}
+@media screen and (max-width:1024px) {
+  #footer-content{
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 40px;
+    margin-right: 40px ;
+  }
+  .footer-content-heading{
+    max-width: 170px;
+  }
+  .footer-links{
+    display: none;
+  }
+  .footer-links.show{
+    display: block;
+  }
+}
+@media screen and (min-width:768px) {
+  footer{
+    clip-path: ellipse(150% 80% at 50% 80%);
+  }
+  #footer-content-item1-text{
+    max-width: 440px;
+  }
+}
+
+
 @media (max-width: 1023px) {
   .StyledFormContainer {
     padding: 28px 30px;
@@ -3024,8 +3076,152 @@ img {
   }
 }
 
-/* Modifier class for placement-briefcase-icon */
-.uuFua.placement-briefcase-icon {
-  width: 32px;
-  height: 32px;
+/* Styles for screens 768px and above */
+@media (min-width: 768px) {
+  .LearningToEarningStylesWrapper {
+    background-image: url('https://static-artifacts-assets.skillovilla.com/assets/backgrounds/circle-bg.svg?auto=format&q=35&cs=srgb');
+    background-repeat: no-repeat;
+    background-position: calc(100% + 300px);
+    background-size: 600px;
+  }
+}
+
+/* xWNdY --> LearningToEarningStylesContentWrapper */
+.LearningToEarningStylesContentWrapper {
+  padding: 30px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 20px;
+  margin-bottom: 75px;
+}
+
+@media (max-width: calc(1024px - 1px)) {
+  .LearningToEarningStylesContentWrapper {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 45px;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: calc(768px - 1px)) {
+  .LearningToEarningStylesContentWrapper {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-row-gap: 45px;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: calc(576px - 1px)) {
+  .LearningToEarningStylesContentWrapper {
+    margin-top: 20px;
+  }
+}
+
+/* fFPqjz --> IllustrationCardStyledIllustrationCard */
+.IllustrationCardStyledIllustrationCard {
+  padding: 26px 22px 55% 22px;
+  background-color: #ffffff;
+  box-shadow: 0 0 50px 0 rgba(25, 24, 29, 0.08);
+  border-radius: 8px;
+  position: relative;
+}
+
+@media (max-width: calc(1110px - 1px)) {
+  .IllustrationCardStyledIllustrationCard {
+    padding: 26px 22px 65% 22px;
+  }
+}
+
+@media (max-width: calc(576px - 1px)) {
+  .IllustrationCardStyledIllustrationCard {
+    padding: 68px 22px 20px 22px;
+    margin-top: 45px;
+  }
+}
+
+@media (min-width: calc(1024px)) {
+  .IllustrationCardStyledIllustrationCard:nth-child(odd) {
+    margin-bottom: 45px;
+  }
+  .IllustrationCardStyledIllustrationCard:nth-child(even) {
+    margin-top: 45px;
+  }
+}
+
+@media (max-width: calc(1024px - 1px)) {
+  .IllustrationCardStyledIllustrationCard {
+    padding-top: 26px;
+    padding-bottom: 26px;
+    margin-left: 40px;
+    padding-left: 100px;
+  }
+}
+
+@media (max-width: calc(768px - 1px)) {
+  .IllustrationCardStyledIllustrationCard {
+    padding-left: 100px;
+  }
+}
+
+@media (max-width: calc(576px - 1px)) {
+  .IllustrationCardStyledIllustrationCard {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin: 0 !important;
+  }
+}
+
+/* dTGWsh --> IllustrationCardStyledIllustration */
+.IllustrationCardStyledIllustration {
+  height: 210px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, 30%);
+  -ms-transform: translate(-50%, 30%);
+  transform: translate(-50%, 30%);
+}
+
+@media (max-width: calc(1200px - 1px)) {
+  .IllustrationCardStyledIllustration {
+    -webkit-transform: translate(-50%, 40%);
+    -ms-transform: translate(-50%, 40%);
+    transform: translate(-50%, 40%);
+  }
+}
+
+/* eWNWsJ --> LearningToEarningStylesActionsWrapper */
+.LearningToEarningStylesActionsWrapper {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  grid-column-gap: 20px;
+}
+
+@media (max-width: calc(576px - 1px)) {
+  .LearningToEarningStylesActionsWrapper {
+    width: 100%;
+  }
+}
+
+.LearningToEarningStylesActionsWrapper button,
+.LearningToEarningStylesActionsWrapper a {
+  width: 100%;
+  white-space: nowrap;
+}
+
+@media (max-width: calc(576px - 1px)) {
+  .LearningToEarningStylesActionsWrapper button,
+  .LearningToEarningStylesActionsWrapper a {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
 }
