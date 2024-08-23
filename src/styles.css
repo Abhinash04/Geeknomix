@@ -3225,3 +3225,199 @@ gap: 10px;
     padding-right: 5px;
   }
 }
+
+
+/* Section 3 Styles Ends */
+
+
+/* Section 5 Styles begins */
+
+/* Base styles gZeLTf --> TracksStyledBackgroundWrapper*/
+.TracksStyledBackgroundWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 360px;
+}
+
+/* Responsive styles */
+@media (max-width: 1023px) {
+  .TracksStyledBackgroundWrapper {
+    height: 300px;
+  }
+}
+
+/* Image styles */
+.TracksStyledBackgroundWrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* hjlXoa --> styleCardWrapper */
+.styleCardWrapper {
+  padding: 25px 0;
+  border-radius: 8px;
+  box-shadow: 0 0 50px 0 rgba(25, 24, 29, 0.08);
+  position: relative;
+  background-color: #ffffff;
+}
+
+@media (max-width: calc(576px - 1px)) {
+  .styleCardWrapper {
+    width: 100%;
+    height: -webkit-fit-content !important;
+    height: -moz-fit-content !important;
+    height: fit-content !important;
+  }
+}
+
+/* khrMah --> Pill */
+.Pill {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  padding: 6px 14px 6px 7px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  border: solid 1px #e9e9e9;
+  box-shadow: 0 0 50px 0 rgba(25, 24, 29, 0.08);
+  width: fit-content;
+}
+
+/* cdPJKc --> CardsStyledPill */
+.CardsStyledPill {
+  min-width: fit-content;
+  overflow: hidden;
+}
+
+.CardsStyledPill p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* jOGzVi --> ImageListStyledLearnerImageWrapper */
+.ImageListStyledLearnerImageWrapper {
+  height: 24px;
+  width: 24px;
+  border-radius: 100px;
+  border: 1px solid #ffffff;
+  overflow: hidden;
+}
+
+.ImageListStyledLearnerImageWrapper:not(:first-child) {
+  margin-left: -10%;
+}
+
+.ImageListStyledLearnerImageWrapper:first-child {
+  margin-left: 10%;
+}
+
+/* gOOKSp --> styleTrackIcon */
+.styleTrackIcon {
+  width: 136px;
+  height: 136px;
+  border-radius: 8px;
+}
+
+@media (max-width: calc(576px - 1px)) {
+  .styleTrackIcon {
+    width: 120px;
+    height: 120px;
+    margin-right: 20px;
+  }
+}
+
+/* bXFwHQ --> styleOfferTag */
+.styleOfferTag {
+  padding: 5px 10px;
+  margin-left: 15px;
+  margin-right: -41px;
+  background-color: #48c479;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  white-space: nowrap;
+}
+
+@media (max-width: calc(576px - 1px)) {
+  .styleOfferTag {
+    margin-left: 10px;
+  }
+  .styleOfferTag p {
+    max-width: 48px;
+    overflow: hidden;
+  }
+}
+
+.styleOfferTag:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  height: 10px;
+  width: 11px;
+  bottom: -10px;
+  -webkit-clip-path: polygon(0 0, 100% 0, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 0 100%);
+  background-color: #349059;
+}
+
+
+/* ifQCGt --> ExpertsInfoWrapper */
+.ExpertsInfoWrapper {
+  padding: 9px 25px;
+  background-image: linear-gradient(to right, #e4e3e8, rgba(229, 228, 233, 0));
+  margin-right: -30px;
+  border-radius: 12px;
+}
+
+@media (max-width: calc(576px - 1px)) {
+  .ExpertsInfoWrapper {
+    padding: 9px 10px 14px 15px;
+    overflow: hidden;
+  }
+  .ExpertsInfoWrapper p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+
+/* jIrRrJ --> ExpertsOverlappingImage */
+.ExpertsOverlappingImage {
+  height: 40px;
+  width: 40px;
+  padding: 7px;
+  background-color: #ffffff;
+  border: solid 2px #e7e7eb;
+}
+
+.ExpertsOverlappingImage:not(:first-child) {
+  margin-left: -5%;
+}
+
+.ExpertsOverlappingImage:first-child {
+  margin-left: 0;
+}
+
+@media (max-width: calc(576px - 1px)) {
+  .ExpertsOverlappingImage {
+    height: 30px;
+    width: 30px;
+    padding: 4px;
+  }
+}

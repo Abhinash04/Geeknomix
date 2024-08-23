@@ -33,46 +33,42 @@ const Section1 = () => {
               href="/tracks"
               className="button_V11 button_V1 mb-[60px] md:mb-[50px]"
             >
-              <div className="relative h-full">
-                <div className="h-full flex items-center justify-center">
-                  Explore Programs
-                </div>
+              <div className="relative h-full flex items-center justify-center">
+                Explore Programs
               </div>
             </a>
             <div className="flex w-0 h-20 shadow-[0_0_50px_0_rgba(25,24,29,0.08)] rounded-lg bg-white items-center text-left md:mx-0 md:w-1/2 sm:w-1/2 ml-0">
-  <div className="StatItemStyledStatItem flex-[1_1_0%] w-1/2 flex m-[15px_0] px-[40px] sm:px-[24px] sm:m-[0_0_5px_-8px] sm:py-[9px] items-center justify-center">
-    <div className="StatItemStatIconWrapper flex items-center mr-[20px]">
-      <FontAwesomeIcon icon={faBriefcase} className="w-8 h-10 text-[#ff9800]" />
-    </div>
-    <div className="StatItemStatContent flex flex-col items-center">
-      <h3 className="text-lg font-bold leading-tight text-center">
-        92%
-      </h3>
-      <p className="text-sm leading-tight text-center">
-        Job placement
-      </p>
-    </div>
-  </div>
-  <div className="separator-line box1 flex h-[50px] w-0 opacity-50 border border-[#ececec]"></div>
-  <div className="StatItemStyledStatItem flex-[1_1_0%] w-1/2 flex m-[15px_0] px-[40px] sm:px-[24px] sm:m-[0_0_5px_-8px] sm:py-[9px] items-center justify-center">
-    <div className="StatItemStatIconWrapper flex items-center mr-[20px]">
-      <FontAwesomeIcon icon={faIndianRupeeSign} className="w-8 h-8 text-[#ff9800]" />
-    </div>
-    <div className="StatItemStatContent flex flex-col items-center">
-      <h3 className="text-lg font-bold leading-tight text-center">
-        30 Lac
-      </h3>
-      <p className="text-sm leading-tight text-center">
-        Packages upto
-      </p>
-    </div>
-  </div>
-</div>
-
+              <div className="StatItemStyledStatItem flex-[1_1_0%] w-1/2 flex m-[15px_0] px-[40px] sm:px-[24px] sm:m-[0_0_5px_-8px] sm:py-[9px] items-center justify-center">
+                <div className="StatItemStatIconWrapper flex items-center mr-[20px]">
+                  <FontAwesomeIcon icon={faBriefcase} className="w-8 h-10 text-[#ff9800]" />
+                </div>
+                <div className="StatItemStatContent flex flex-col items-center mt-4">
+                  <h3 className="text-lg font-bold leading-tight text-center">
+                    92%
+                  </h3>
+                  <p className="text-sm leading-tight text-center">
+                    Job placement
+                  </p>
+                </div>
+              </div>
+              <div className="separator-line box1 flex h-[50px] w-0 opacity-50 border border-[#ececec]"></div>
+              <div className="StatItemStyledStatItem flex-[1_1_0%] w-1/2 flex m-[15px_0] px-[40px] sm:px-[24px] sm:m-[0_0_5px_-8px] sm:py-[9px] items-center justify-center">
+                <div className="StatItemStatIconWrapper flex items-center mr-[20px]">
+                  <FontAwesomeIcon icon={faIndianRupeeSign} className="w-8 h-8 text-[#ff9800]" />
+                </div>
+                <div className="StatItemStatContent flex flex-col items-center mt-4">
+                  <h3 className="text-lg font-bold leading-tight text-center">
+                    30 Lac
+                  </h3>
+                  <p className="text-sm leading-tight text-center">
+                    Packages upto
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
-          {/* Update this div to include 'hidden' on smaller screens */}
           <div className="hero-image flex justify-center items-center lg:block hidden">
-            <img src={heroImage} alt="geeknomix" className="mt-8 w-full h-full" />
+            <img src={heroImage} alt="hero" className="mt-8 w-full h-full" />
           </div>
         </div>
         <div className="company-list w-full mt-8">
