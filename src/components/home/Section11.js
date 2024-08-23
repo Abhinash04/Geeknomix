@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
+import emoji from "../../assets/images/contact/emoji.png";
 import img1 from "../../assets/images/icon/requestCallbackBannerIcon.svg"
 
 const faqs = [
@@ -53,7 +54,7 @@ const Section11 = () => {
     <section className="faq py-12">
       <div className="section-header text-center mb-8">
         <h2 className="Typography V4 font-bold text-[rgb(255,186,0)] flex align-items-center justify-content-center">FREQUENTLY ASKED QUESTIONS?
-        <img loading="lazy" src="https://static-artifacts-assets.skillovilla.com/assets/emojis/point.svg?auto=format&amp;q=35&amp;cs=srgb" alt="point emoji" className="h-[1em] " />
+        <img loading="lazy" src={emoji} alt="point emoji" className="h-[1em] " />
         </h2>
         <p className="Typography V4 text-gray-600">
           Take our courses and we’ll prepare you to be a talent that the industry is looking for!

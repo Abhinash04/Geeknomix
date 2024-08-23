@@ -31,7 +31,7 @@ const Section1 = () => {
             </p>
             <a
               href="/tracks"
-              className="button_V11 button_V1 BannerStyles__BannerButton-sc-14m4gzv-6 mb-[60px] md:mb-[50px]"
+              className="button_V11 button_V1 mb-[60px] md:mb-[50px]"
             >
               <div className="relative h-full">
                 <div className="h-full flex items-center justify-center">
@@ -71,7 +71,7 @@ const Section1 = () => {
           </div>
           {/* Update this div to include 'hidden' on smaller screens */}
           <div className="hero-image flex justify-center items-center lg:block hidden">
-            <img src={heroImage} alt="geeknomix" className="mt-8 max-w-full h-auto" />
+            <img src={heroImage} alt="geeknomix" className="mt-8 w-full h-full" />
           </div>
         </div>
         <div className="company-list w-full mt-8">
