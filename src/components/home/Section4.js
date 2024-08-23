@@ -2,7 +2,9 @@ import React from 'react'
 
 const Section4 = () => {
   return (
-    <div>Section4</div>
+    <section className="Section4 relative pt-[45px]">
+      <div className=""></div>
+    </section>
   )
 }
 

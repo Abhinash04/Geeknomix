@@ -38,7 +38,7 @@ const Home = () => {
         <Section2/>
       </Element>
       <Element name="Section3">
-        <Empty/>
+        {/* <Empty/> */}
         <Section3/>
       </Element>
       <Element name="section4">
