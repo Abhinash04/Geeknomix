@@ -52,10 +52,10 @@ const Section11 = () => {
   return (
     <section className="faq py-12">
       <div className="section-header text-center mb-8">
-        <h2 className="Typography bfkOxr font-bold text-[rgb(255,186,0)] flex align-items-center justify-content-center">FREQUENTLY ASKED QUESTIONS?
+        <h2 className="Typography V4 font-bold text-[rgb(255,186,0)] flex align-items-center justify-content-center">FREQUENTLY ASKED QUESTIONS?
         <img loading="lazy" src="https://static-artifacts-assets.skillovilla.com/assets/emojis/point.svg?auto=format&amp;q=35&amp;cs=srgb" alt="point emoji" className="h-[1em] " />
         </h2>
-        <p className="Typography bfkOxr text-gray-600">
+        <p className="Typography V4 text-gray-600">
           Take our courses and we’ll prepare you to be a talent that the industry is looking for!
         </p>
       </div>
@@ -75,18 +75,18 @@ const Section11 = () => {
           </div>
         ))}
 
-        <div className="ContainerV2 cFaWdI p-0">
-          <div className="bPKObZ rounded-xl bg-[#6CE9A6]/20 flex items-center justify-between p-[22px] px-[34px] md:flex-wrap md:p-[18px]">
+        <div className="ContainerV2 ContainerV2_1 p-0">
+          <div className="box1 rounded-xl bg-[#6CE9A6]/20 flex items-center justify-between p-[22px] px-[34px] md:flex-wrap md:p-[18px]">
             <div className="flex items-center">
               <img loading="lazy" src={img1} alt="Geeknomix-requestCallback-banner-icon" className="w-[74px] h-[70px] mr-[14px]" />
               <div>
-                <h3 className="Typography guJjvM iCEiAi XlWDz">Still have questions?</h3>
-                <h5 className="Typography cdtTth gughJQ hjuoAW">Request a callback to get in touch with our academic counsellors.</h5>
+                <h3 className="Typography TV5 TV60 TV62">Still have questions?</h3>
+                <h5 className="Typography TV2 TV61 TV63">Request a callback to get in touch with our academic counsellors.</h5>
               </div>
             </div>
-            <button type="button" className="luFLY jXYppH w-[100%] mt-[10px]">
-              <div className="chDexi">
-                <div className="ljxRdJ">Request a Callback</div>
+            <button type="button" className="button_V11 button_V9 w-[100%] mt-[10px]">
+              <div className="relative h-full">
+                <div className="h-full flex items-center justify-center">Request a Callback</div>
               </div>
             </button>
           </div>
