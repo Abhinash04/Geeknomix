@@ -81,7 +81,7 @@ const Section1 = () => {
               </div>
             </div>
           </div>
-          <div className="fresnel-container fresnel-greaterThanOrEqual-desktop ResponsiveStyleMediaWrapperV3">
+          <div className="fresnel-greaterThanOrEqual-desktopXL ResponsiveStyleMediaWrapperV3">
             <div className="h-full w-full relative z-10 flex justify-center items-center lg:block hidden">
               <picture className="BannerStylesStyledIllustration absolute top-0 left-0 h-full w-auto">
                 <img

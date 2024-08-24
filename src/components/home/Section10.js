@@ -13,7 +13,7 @@ const Section10 = () => {
             loading="lazy"
             src={contactIcon}
             alt="shirt emoji"
-            className="Emoji h-[1em] mb-[5px]"
+            className="Emoji h-[1em] mb-[5px] hidden lg:block"
           />
         </h2>
         <div className="Box box1">

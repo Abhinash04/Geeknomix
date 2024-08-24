@@ -471,7 +471,8 @@
   }
 }
 
-/* End of fresnel container */
+/* End of fresnel 
+ */
 
 *,
 *::after,
@@ -545,7 +546,7 @@ img {
 
 .container,
 .wrapper {
-  max-width: 1360px;
+  max-width: 1024px;
   margin: 0 auto;
   padding: 0 4rem !important;
 }
@@ -3646,6 +3647,14 @@ gap: 10px;
   flex: 1;
 }
 
+@media (max-width: 768px) {
+  .MentorsContentWrapper {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 @media (max-width: 575px) {
   .MentorsContentWrapper {
     width: 100%;
@@ -3708,6 +3717,8 @@ gap: 10px;
     border-right: 1px solid #e7e7eb;
   }
 }
+
+
 
 
 /* Section 8 styles begin */
