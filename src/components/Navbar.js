@@ -22,7 +22,7 @@ function Navbar() {
           <div className="hidden grow items-start lg:flex">
             <ul className="ml-12 mt-3 inline-flex space-x-8 items-center justify-center">
               <li>
-                <Link to='/home'
+                <Link to='/'
                   className="inline-flex items-center text-base font-semibold text-gray-800 hover:text-gray-900 no-underline"
                 >
                   Home
@@ -74,7 +74,7 @@ function Navbar() {
       <div className={`lg:hidden absolute w-full z-50 ${isMenuOpen ? 'block' : 'hidden'}`}>
         <ul className="flex flex-col items-start gap-4 w-full bg-white p-4">
           <li>
-            <Link to='/home'
+            <Link to='/'
               className="inline-flex items-center text-base font-semibold text-gray-800 hover:text-gray-900 no-underline"
             >
               Home

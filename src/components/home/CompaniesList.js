@@ -1,23 +1,24 @@
 import React from 'react';
+import Slider from './Slider';
+
 import razorpay from '../../assets/images/brand/Razorpay.png';
 import swiggy from '../../assets/images/brand/swiggytext.png';
 import accenture from '../../assets/images/brand/accenture.png';
 import shadowFax from '../../assets/images/brand/shadowfax.png';
 import deloitte from '../../assets/images/brand/Deloitte.png';
-import axisBank from '../../assets/images/brand/asixbank.png';
-import citibank from '../../assets/images/brand/Citi_Bank.png';
+import google from '../../assets/images/brand/Google.png';
+import Sunstone from '../../assets/images/brand/Sunstone.png';
 import zomato from '../../assets/images/brand/zomato.png';
 import mamaearth from '../../assets/images/brand/Mama_earth.png';
 import flipkart from '../../assets/images/brand/flipkart.png';
-import exl from '../../assets/images/brand/exl.png';
-import zs from '../../assets/images/brand/zs.png';
-import virtusa from '../../assets/images/brand/virtusa.png';
-import paypal from '../../assets/images/brand/paypal.png';
+import Vedantu from '../../assets/images/brand/Vedantu.png';
+import CRED from '../../assets/images/brand/CRED.png';
+import Lendingkart from '../../assets/images/brand/Lendingkart.png';
+import propertypistol from '../../assets/images/brand/propertypistol.png';
 import campk12 from '../../assets/images/brand/Camp.png';
 
 const companies = [
-  razorpay, swiggy, accenture, shadowFax, deloitte, axisBank, citibank, zomato,
-  mamaearth, flipkart, exl, zs, virtusa, paypal, campk12
+  razorpay, swiggy, accenture, shadowFax, deloitte, google, Sunstone, zomato, mamaearth, flipkart, Vedantu, CRED, Lendingkart, propertypistol, campk12
 ];
 
 const CompaniesList = () => {
@@ -29,19 +30,30 @@ const CompaniesList = () => {
             These companies are waiting for you! (300+ Companies)
           </h5>
         </div>
-        <div className="overflow-hidden">
-          <div className="flex items-center gap-4 animate-marquee">
-            {companies.map((company, index) => (
-              <img
-                key={index}
-                src={company}
-                alt="Company Logo"
-                className="h-16 mx-4"
-                loading="lazy"
+        <Slider 
+          duration={180} 
+          toRight={true} 
+          pauseOnHover={true} 
+          // blurBorders={true} 
+          // blurBoderColor="#eee"
+        >
+          {companies.map((companyLogo, index) => (
+            <Slider.Slide key={index}>
+              <img 
+                src={companyLogo} 
+                alt={`Company Logo ${index + 1}`} 
+                style={{ 
+                  width: '100%', 
+                  height: 'auto',
+                  filter: 'grayscale(100%)',
+                  transition: 'filter 0.3s ease'
+                }} 
+                onMouseOver={e => e.currentTarget.style.filter = 'grayscale(0%)'}
+                onMouseOut={e => e.currentTarget.style.filter = 'grayscale(100%)'}
               />
-            ))}
-          </div>
-        </div>
+            </Slider.Slide>
+          ))}
+        </Slider>
       </div>
     </section>
   );
