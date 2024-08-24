@@ -39,7 +39,7 @@ const Section6 = () => {
             </div>
           </a>
         </div>
-        <div className="ResponsiveStyleMediaWrapperV8">
+        <div className="flex">
           <div className="flex hidden lg:block">
             <div title="" role="button" aria-label="animation" tabIndex="0" className="w-[615px] h-[375px] overflow-hidden mx-auto outline-none">
               <img src={experts} alt="Experts" />
