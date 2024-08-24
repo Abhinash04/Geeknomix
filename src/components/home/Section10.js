@@ -18,7 +18,7 @@ const Section10 = () => {
         </h2>
         <div className="Box box1">
         {/* review */}
-          <div className="fresnel-container fresnel-greaterThanOrEqual-desktop ResponsiveStyleMediaWrapperV9">
+          <div className="fresnel-container fresnel-greaterThanOrEqual-desktop ResponsiveStyleMediaWrapperV9 hidden lg:block">
             <img
               loading="lazy"
               src={contactIllustration}

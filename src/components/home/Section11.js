@@ -54,7 +54,7 @@ const Section11 = () => {
     <section className="faq py-12">
       <div className="section-header text-center mb-8">
         <h2 className="Typography V4 font-bold text-[rgb(255,186,0)] flex align-items-center justify-content-center">FREQUENTLY ASKED QUESTIONS?
-        <img loading="lazy" src={emoji} alt="point emoji" className="h-[1em] " />
+        <img loading="lazy" src={emoji} alt="point emoji" className="h-[1em] lg:block hidden" />
         </h2>
         <p className="Typography V4 text-gray-600">
           Take our courses and we’ll prepare you to be a talent that the industry is looking for!
@@ -76,18 +76,18 @@ const Section11 = () => {
           </div>
         ))}
 
-        <div className="ContainerV2 ContainerV2_1 p-0">
-          <div className="box1 rounded-xl bg-[#6CE9A6]/20 flex items-center justify-between p-[22px] px-[34px] md:flex-wrap md:p-[18px]">
-            <div className="flex items-center">
+        <div className="ContainerV2_1 p-0">
+          <div className="box1 rounded-xl bg-[#6CE9A6]/20 flex flex-wrap items-center justify-between p-[22px] px-[34px] md:flex-wrap md:p-[18px]">
+            <div className="flex flex-wrap items-center">
               <img loading="lazy" src={img1} alt="Geeknomix-requestCallback-banner-icon" className="w-[74px] h-[70px] mr-[14px]" />
               <div>
-                <h3 className="Typography TV5 TV60 TV62">Still have questions?</h3>
-                <h5 className="Typography TV2 TV61 TV63">Request a callback to get in touch with our academic counsellors.</h5>
+                <h3 className="TV5 TV60 TV62">Still have questions?</h3>
+                <h5 className="TV2 TV61 TV63">Request a callback to get in touch with our academic counsellors.</h5>
               </div>
             </div>
             <button type="button" className="button_V11 button_V9 w-[100%] mt-[10px]">
               <div className="relative h-full">
-                <div className="h-full flex items-center justify-center">Request a Callback</div>
+                <div className="h-full text-wrap">Request a Callback</div>
               </div>
             </button>
           </div>

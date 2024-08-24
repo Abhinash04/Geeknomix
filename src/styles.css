@@ -2915,7 +2915,30 @@ img {
 #navbar{
   position: sticky;
   top: 0px;
+  z-index:100;
 }
+
+#offer::before{
+  content: '';
+  position: absolute;
+  height: 50px;
+  width: 60px;
+  background: rgb(255, 255, 255);
+  mix-blend-mode: screen;
+  opacity: 0.7;
+  filter: blur(34px);
+  animation: 4s linear 0s infinite normal forwards running shimmer;
+}
+@keyframes shimmer {
+  0% {
+    left: 0px;
+    transform: translate(-100%);
+}
+100% {
+  left: 100%;
+}
+}
+
 #footer-content-parent{
   margin: auto;
   margin-top: 120px;
@@ -3611,4 +3634,16 @@ gap: 10px;
     width: 30px;
     padding: 4px;
   }
+}
+
+
+
+/* Section 8 styles begin */
+.certificateSection {
+  background: radial-gradient(50% 50% at 100% 0, #000 0 5%, #20007a 6% 15%, #000 16% 25%, #20007a 26% 35%, #000 36% 45%, #20007a 46% 55%, #000 56% 65%, #20007a 66% 75%, #000 76% 85%, #20007a 86% 95%, transparent 96%), radial-gradient(50% 50% at 0 100%, #000 0 5%, #20007a 6% 15%, #000 16% 25%, #20007a 26% 35%, #000 36% 45%, #20007a 46% 55%, #000 56% 65%, #20007a 66% 75%, #000 76% 85%, #20007a 86% 95%, transparent 96%), radial-gradient(50% 50%, #000 0 5%, #20007a 6% 15%, #000 16% 25%, #20007a 26% 35%, #000 36% 45%, #20007a 46% 55%, #000 56% 65%, #20007a 66% 75%, #000 76% 85%, #20007a 86% 95%, transparent 96%), radial-gradient(50% 50%, #000 0 5%, #20007a 6% 15%, #000 16% 25%, #20007a 26% 35%, #000 36% 45%, #20007a 46% 55%, #000 56% 65%, #20007a 66% 75%, #000 76% 85%, #20007a 86% 95%, transparent 96%) 24px 24px;
+  background-color: #000;
+  background-size: 48px 48px;
+  padding: 5rem 0;
+  position: relative;
+  margin-top: 4rem
 }
