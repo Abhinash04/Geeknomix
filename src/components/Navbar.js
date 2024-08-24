@@ -9,7 +9,7 @@ import { IoMenu } from "react-icons/io5";
 function Navbar() {
   return (
    <>
-          <div className='md:h-16 sm:h-14 sm:text:sm md:text-lg text-white sm:flex px-4 py-3 items-center justify-center animate-pulse' style={{background:'#4E01BD'}}>Celebrating 1 years of GeekNomix! Avail benefits upto ₹1,20,000 | 23 seats left | <Link to='#' className='text-white'>Apply Now</Link></div>
+          <div id='offer'className='md:h-16 sm:h-14 sm:text:sm md:text-lg text-white sm:flex px-4 py-3 items-center justify-center animate-pulse' style={{background:'#4E01BD'}}>Celebrating 1 years of GeekNomix! Avail benefits upto ₹1,20,000 | 23 seats left | <Link to='#' className='text-white'>Apply Now</Link></div>
           <nav className="w-full bg-white" id='navbar'>
           <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-2 sm:px-6 lg:px-8">
             <Link to='/' className="inline-flex items-center space-x-2">
