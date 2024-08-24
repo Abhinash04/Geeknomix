@@ -4,7 +4,7 @@ import experience from "../../assets/images/teacher/mentors-industries.png";
 
 const Section6 = () => {
   return (
-    <div className="ContainerV2_1 pt-[100px]">
+    <div className="mx-auto max-w-[1140px] w-full px-6 lg:px-8 sm:px-5 pt-[100px]">
       <p className="TV4 TV29">MENTORS</p>
       <h2 className="TV7 TV43">
         Connecting you to the top 1% experts

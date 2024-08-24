@@ -14,6 +14,7 @@ import Section10 from '../components/home/Section10';
 import Section11 from '../components/home/Section11';
 import ScrollToTop from '../components/ScrollToTop';
 import Empty from '../components/Empty';
+import Section6Banner from '../components/home/Section6Banner';
 
 const Home = () => {
   const location = useLocation();
@@ -55,6 +56,8 @@ const Home = () => {
       </Element>
       <Element name="section7">
         <Empty/>
+      <Section6Banner />
+      <Empty/>
         <Section7 />
       </Element>
       <Element name="section8">
