@@ -2923,7 +2923,7 @@ img {
   position: absolute;
   height: 50px;
   width: 60px;
-  background: rgb(255, 255, 255);
+  background: rgb(197, 110, 110);
   mix-blend-mode: screen;
   opacity: 0.7;
   filter: blur(34px);
